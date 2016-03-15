@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">服务</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="start">服务开启</string>
+    <string name="stop">服务停止</string>
+
+</resources>

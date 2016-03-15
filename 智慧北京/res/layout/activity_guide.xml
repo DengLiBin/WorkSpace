@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<android.support.v4.view.ViewPager
+	    android:id="@+id/vp_guide"
+	    android:layout_width="match_parent"
+    	android:layout_height="match_parent" />
+	<Button
+	    android:id="@+id/button1"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginBottom="60dp"
+	    android:background="@drawable/btn_guide_selector"
+	    android:paddingLeft="5dp"
+	    android:paddingRight="5dp"
+	    android:text="开始体验"
+	    android:visibility="invisible"
+	    android:textColor="@drawable/btn_guide_text_selector"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" />
+
+	<RelativeLayout
+	     android:layout_alignParentBottom="true"
+	     android:layout_centerHorizontal="true"
+	     android:layout_marginBottom="20dp"
+	     android:layout_width="wrap_content"
+		 android:layout_height="wrap_content" >
+	
+		<LinearLayout
+		    android:id="@+id/ll_point_group"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"><!-- 在代码中添加了三个灰色的小圆点 -->   
+		</LinearLayout>
+		<View
+		    android:id="@+id/view_red_point"
+		    android:layout_width="10dp"
+		    android:layout_height="10dp"
+		    android:background="@drawable/shape_point_red" /><!-- 没有设置相对位置，刚好覆盖上一个布局 -->
+	</RelativeLayout>
+</RelativeLayout>

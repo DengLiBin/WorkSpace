@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">第一个应用</string>
+    <string name="hello">第一个应用!</string>
+    <string name="itcast">传智播客!</string>
+
+</resources>

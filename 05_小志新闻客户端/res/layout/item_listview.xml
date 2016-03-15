@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    
+    <com.loopj.android.image.SmartImageView 
+        android:id="@+id/iv"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_launcher"
+        android:layout_centerVertical="true"
+        />
+    <TextView 
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是大标题志哥教你上塑料adasfsadfdsfdsgsd"
+        android:layout_toRightOf="@id/iv"
+        android:textSize="22sp"
+        android:singleLine="true"
+        />
+	 <TextView 
+	     android:id="@+id/tv_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是正文志哥教你带崩三路adasfsadasdasdasdasidhsakjhdkjashdkjahskjdhsakjdfdsfdsgsd"
+        android:layout_toRightOf="@id/iv"
+        android:layout_below="@id/tv_title"
+        android:textSize="15sp"
+        android:textColor="@android:color/darker_gray"
+        android:lines="2"
+        />
+	  <TextView 
+	      android:id="@+id/tv_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="65031条评论"
+        android:textColor="#ff0000"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_detail"
+        />
+</RelativeLayout>

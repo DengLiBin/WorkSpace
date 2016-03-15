@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">保存数据到服务器</string>
+    <string name="hello">Hello World, SaveDataToWebActivity!</string>
+    <string name="title">视频名称</string>
+    <string name="button">保存</string>
+    <string name="timelength">视频时长</string>
+    <string name="success">保存成功</string>
+    <string name="fail">保存失败</string>
+
+</resources>

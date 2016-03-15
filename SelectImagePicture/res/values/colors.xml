@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="base_shallow_black">#818181</color>
+
+    <!-- *******************************公共色*************************************** -->
+    <!-- 白色 -->
+    <color name="white">#ffffff</color>
+    <!-- 灰白色 -->
+    <color name="gray_white">#ace1ff</color>
+    <!-- 白色背景 -->
+    <color name="dialog_white_bg">#fbfbfb</color>
+    <!-- 黑色 -->
+    <color name="black">#999999</color>
+    <!-- 黄色 -->
+    <color name="yellow">#ea8a1f</color>
+    <!-- 黄色1 -->
+    <color name="yellow_two">#ff7800</color>
+    <!-- 黄色2 -->
+    <color name="yellow_three">#ffc000</color>
+    <!-- 红色 -->
+    <color name="red">#ef324e</color>
+    <!-- 首页颜色表 -->
+    <color name="color_divider">#dfe0e1</color>
+    <!-- 透明 -->
+    <color name="touming">#00000000</color>
+    <!-- 透明 -->
+    <color name="halfTouming">#33000000</color>
+    <!-- *******************************APP主题色*************************************** -->
+    <!-- APP主题色 -->
+    <color name="theme_color">#00a3ff</color>
+    <!-- APP主题背景色 -->
+    <color name="theme_bg">#f8f9fa</color>
+    <color name="color_blue">#ace1ff</color>
+    <color name="color_green">#30d74f</color>
+    <color name="color_greens">#11dc45</color>
+    <color name="color_yellows">#ffa11b</color>
+    <color name="color_park">#ff5a75</color>
+    <color name="theme_spinner_bg">#fafafa</color>
+    <color name="home_page_bg">#cccccc</color>
+
+    <!-- TAB底边字体颜色 -->
+    <color name="tab_text_color">#676767</color>
+    <!-- 深色字体颜色 -->
+    <color name="deep_text_color">#333333</color>
+    <!-- 深色字体颜色 -->
+    <color name="deeper_text_color">#666666</color>
+    <!-- 浅色字体颜色 -->
+    <color name="light_text_color">#999999</color>
+    <!-- 浅色hint字体颜色 -->
+    <color name="lighter_text_color">#cccccc</color>
+    <!-- 黄色字体颜色 -->
+    <color name="yellow_text_color">#ff9104</color>
+    <!-- 深色边框颜色 -->
+    <color name="deep_line_color">#d2d2d2</color>
+    <!-- 浅色边框颜色 -->
+    <color name="light_line_color">#e5e5e5</color>
+    <!-- 绿色圆点 -->
+    <color name="color_progressbar_green">#40c820</color>
+    <!-- 灰色圆点 -->
+    <color name="color_progressbar_gray">#bfbfbf</color>
+    <color name="color_btn_bg">#dbdbdb</color>
+
+</resources>

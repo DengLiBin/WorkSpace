@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   	android:background="#fff"
+   	android:orientation="vertical" >
+	
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+         >
+        <!-- 权重适配，weightSum=3总共三个权重 ，下面的TextView占屏幕宽度的1/3-->
+        <TextView
+	        android:id="@+id/tv_tv1"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="100dp"
+	        android:background="#0f0"
+         />
+        <TextView
+	        android:id="@+id/tv_tv2"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="100dp"
+	        android:background="#00f"
+         />
+        
+    </LinearLayout>
+    
+
+</LinearLayout>

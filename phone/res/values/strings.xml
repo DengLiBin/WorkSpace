@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">电话拨号器</string>
+    <string name="mobile">请输入手机号码：</string>
+    <string name="button">拨号</string>
+
+</resources>

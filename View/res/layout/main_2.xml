@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/LineLayout01"
+    android:gravity="bottom">
+
+  <!-- 表格一 -->
+   <TableLayout 
+   android:id="@+id/TableLayout01" 
+   android:layout_width="fill_parent" 
+   android:layout_height="wrap_content"   
+   xmlns:android="http://schemas.android.com/apk/res/android">
+	   <TextView 
+	     android:text="@string/tv1" 
+	     android:id="@+id/TextView01" 
+	     android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content"
+	     android:layout_centerInParent="true"
+	     android:layout_margin="4px"
+	   >
+	   </TextView>
+   </TableLayout>
+     
+  <!-- 表格二-->
+  <TableLayout 
+	   android:id="@+id/TableLayout02" 
+	   android:layout_width="fill_parent" 
+	   android:layout_height="wrap_content"  
+	   android:stretchColumns="0"
+	   xmlns:android="http://schemas.android.com/apk/res/android">
+	   <!-- android:stretchColumns="0" 设置0号列为可伸展的列，当有多个列可伸展时用逗号隔开 -->
+	   <TableRow 
+	     android:id="@+id/TableRow01" 
+	     android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content">
+		    <TextView 
+		     android:text="@string/tvStrech" 
+		     android:id="@+id/TextView02" 
+		     android:layout_width="wrap_content" 
+		     android:layout_height="wrap_content"
+		     android:layout_centerInParent="true"
+		     android:layout_margin="4px"
+		    >   
+		    </TextView> 
+		    <TextView 
+		     android:text="@string/tvShort" 
+		     android:id="@+id/TextView03" 
+		     android:layout_width="wrap_content" 
+		     android:layout_height="wrap_content"
+		     android:layout_centerInParent="true"
+		     android:layout_margin="4px"
+		    >   
+		    </TextView> 	    
+	   </TableRow> 
+	</TableLayout>
+  <!-- 表格三 -->
+	<TableLayout 
+	   android:id="@+id/TableLayout03" 
+	   android:layout_width="fill_parent" 
+	   android:layout_height="wrap_content"  
+	   android:collapseColumns="1"
+	   android:shrinkColumns="0"
+	   xmlns:android="http://schemas.android.com/apk/res/android">
+	   <!-- android:collapseColumns="1" 隐藏编号为1的列，若有多个列要隐藏，则用逗号隔开，如0,2 -->
+	   <!-- android:shrinkColumns="0" 
+	                设置0号列为可收缩的列，可收缩的列会纵向扩展
+	                若有多个列要收缩，则用逗号隔开，如0,2 -->
+	   <TableRow 
+	     android:id="@+id/TableRow02" 
+	     android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content"
+	    >
+		    <TextView 
+		     android:text="@string/tvShrink" 
+		     android:id="@+id/TextView04" 
+		     android:layout_width="wrap_content" 
+		     android:layout_height="wrap_content"
+		     android:layout_centerInParent="true"
+		     android:layout_margin="4px"
+		    >   
+		    </TextView> 
+		    <TextView 
+		     android:text="@string/tvShort" 
+		     android:id="@+id/TextView05" 
+		     android:layout_width="wrap_content" 
+		     android:layout_height="wrap_content"
+		     android:layout_centerInParent="true"
+		     android:layout_margin="4px"
+		    >   
+		    </TextView> 
+		    <TextView 
+		     android:text="@string/tvLong" 
+		     android:id="@+id/TextView06" 
+		     android:layout_width="wrap_content" 
+		     android:layout_height="wrap_content"
+		     android:layout_centerInParent="true"
+		     android:layout_margin="4px"
+		    >   
+		    </TextView> 	    
+	   </TableRow>   
+	</TableLayout>	
+</LinearLayout>

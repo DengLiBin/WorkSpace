@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/imagepath" />
+	<EditText
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagepath"
+        android:text="https://gss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/res/img/logo/logo201509091.png"
+	    />
+	<Button
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button"
+        android:id="@+id/button"
+	    />
+	 <ImageView
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+	    android:id="@+id/imageView"
+	      />
+</LinearLayout>

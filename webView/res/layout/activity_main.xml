@@ -1,0 +1,98 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/video"
+    android:background="#00ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+	<RelativeLayout
+	    android:id="@+id/rl_view"
+   	 	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+ 	 >
+ 	
+	 	 <TextView
+	    	    android:id="@+id/tv_url"
+	    	    android:layout_alignParentTop="true" 
+		        android:layout_width="match_parent"
+		        android:layout_height="32dp"
+		        android:gravity="center"
+		        android:background="@drawable/enter_url_normal"
+		        android:hint="请输入网址"
+		        android:textSize="20sp"
+		        android:maxLines="1"
+		        />
+	 	
+ 	 <FrameLayout 
+ 	    android:layout_below="@id/tv_url"
+ 	    android:layout_width="match_parent"
+        android:layout_height="match_parent">
+ 	     <WebView
+ 	     	android:layerType="hardware" 
+		    android:layout_width="match_parent"
+	    	android:layout_height="match_parent"
+	    	android:id="@+id/webView"
+		   />
+ 	 <ProgressBar
+	        android:id="@+id/pb_progress"
+	        android:layout_gravity="center"
+	        android:visibility="invisible"
+	        android:indeterminateDrawable="@drawable/custom_progress"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+ 	 </FrameLayout>
+ 	 
+ 	 
+		<LinearLayout
+		    android:id="@+id/ll_layout"
+		    android:layout_alignParentBottom="true"
+		    android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+		   	android:orientation="horizontal"  
+		    >
+		     <Button
+		         android:layout_width="wrap_content"
+		         android:layout_weight="1"
+		         android:layout_height="38dp"
+		         android:id="@+id/btn_back"
+		         android:text="后退"
+		         android:background="@drawable/btn_selector"
+		          />
+		     <Button
+		         android:layout_width="wrap_content"
+		         android:layout_weight="1"
+		         android:layout_height="38dp"
+		         android:id="@+id/btn_forward"
+		         android:text="前进"
+		         android:background="@drawable/btn_selector"
+		          />
+		     <Button
+		         android:layout_width="wrap_content"
+		         android:layout_weight="1"
+		         android:layout_height="38dp"
+		         android:id="@+id/btn_home"
+		         android:text="主页"
+		         android:background="@drawable/btn_selector"
+		          />
+		     <Button
+		         android:layout_width="wrap_content"
+		         android:layout_weight="1"
+		         android:layout_height="38dp"
+		         android:id="@+id/btn_refresh"
+		         android:text="刷新"
+		         android:background="@drawable/btn_selector"
+		          />
+		     <Button
+		         android:layout_width="wrap_content"
+		         android:layout_weight="1"
+		         android:layout_height="38dp"
+		         android:id="@+id/btn_finish"
+		         android:text="退出"
+		         android:background="@drawable/btn_selector"
+		          />
+		     
+		</LinearLayout>
+		
+ 	</RelativeLayout>
+ </FrameLayout>

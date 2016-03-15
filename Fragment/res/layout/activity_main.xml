@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" 
+    android:orientation="horizontal" >
+
+      <FrameLayout 
+	    android:id="@+id/fl"
+	    android:layout_weight="1"
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent"
+	    ></FrameLayout>
+          
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fragment01"
+            android:onClick="click1"/>
+         <Button 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fragment02"
+            android:onClick="click2"/>
+          <Button 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fragment03"
+            android:onClick="click3"/>
+           <EditText 
+            android:id="@+id/aet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+       	   <Button 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="传递到fragment02"
+            android:onClick="click4"
+            />
+        
+      </LinearLayout>
+  
+      
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">View</string>
+    <string name="hello">Hello World, ViewActivity!</string>
+    <string name="add">添加</string>
+    <string name="button">按钮</string>
+    <string name="tv1">我自已是一行。。。。。。。。。。。。我自已一行</string>
+	<string name="tvShort">我的内容较少</string>
+	<string name="tvStrech">我是将被拉伸的一列</string>
+	<string name="tvShrink">我是被收缩的一列我是被收缩的一列我是被收缩的一列</string>
+	<string name="tvLong">我是内容较长的一列我是内容较长的一列我是内容较长的一列我是内容较长的一列</string>
+
+</resources>

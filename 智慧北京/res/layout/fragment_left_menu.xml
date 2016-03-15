@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000" >
+
+    <ListView
+        android:id="@+id/lv_list"
+        android:layout_marginTop="40dp"
+        android:listSelector="@android:color/transparent"       
+        android:divider="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    
+    <!--listSelector="@android:color/transparent" ：没有按下效果，
+    	android:divider="@android:color/transparent"：分隔线为透明
+      -->
+
+</RelativeLayout> 

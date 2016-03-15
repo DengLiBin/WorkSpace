@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+     <RelativeLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" >
+	    <com.bin.zhbj.view.TopNewsViewPager
+	        android:id="@+id/vp_news"
+	        android:layout_width="match_parent"
+	        android:layout_height="200dp"
+	         />
+	    <RelativeLayout 
+	        android:background="#a000"
+	        android:layout_alignParentBottom="true"
+	        android:padding="5dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content">
+	        
+	        <TextView
+	            android:text="新闻标题"
+	            android:textColor="#fff"
+	            android:textSize="16sp"
+	            android:id="@+id/tv_title"
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content" />
+	        
+	       		<com.viewpagerindicator.CirclePageIndicator
+	            android:id="@+id/indicator"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:padding="10dip"
+	            app:fillColor="#f00"
+	            app:pageColor="@android:color/darker_gray"
+	            app:radius="3dp"
+	            app:strokeWidth="0dp"
+	             />
+	    </RelativeLayout>
+    </RelativeLayout>
+    
+    
+
+
